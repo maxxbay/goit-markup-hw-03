@@ -18,6 +18,8 @@ html {
     --footer-color-text: rgba(255, 255, 255, 0.6);
     --logo-studio: #000000;
     --button-bcg: #F5F4FA;
+    --color-line: #ECECEC;
+
 
 }
 
@@ -35,13 +37,24 @@ ul {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* Шапка */
 
 /* Кольори */
 /* #212121 текст чорний */
 /*  #757575 колір номера телефону*/
 /* #2196F3 текст синій */
-
 
 .header-logo {
     font-family: 'Raleway';
@@ -110,14 +123,20 @@ ul {
 /* Другий і наступний заголовок + Прізвище ім'я  #212121 */
 /* Професія #757575 */
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* HERO */
 .hero {
     background-color: #2F303A;
-    margin-bottom: 94px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
     color: var(--hero);
     font-weight: 900;
@@ -157,9 +176,20 @@ ul {
 }
 
 /* SECTION середина */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+}
+
+.section.second-bacground {
+    background-color: var(--background-team);
+}
+
 .section-heading {
-    margin-top: 0;
     margin-bottom: 0;
+    text-transform: uppercase;
 
 }
 
@@ -172,7 +202,12 @@ ul {
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
+    margin-bottom: 50px;
 
+}
+
+.section .section-photo {
+    margin-bottom: 30px;
 }
 
 .section .section-title-second {
@@ -182,6 +217,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
     color: var(--primary-text-color);
 }
@@ -202,6 +238,7 @@ ul {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 
     color: var(--primary-text-color);
 }
@@ -212,6 +249,7 @@ ul {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
 }
 
 /* Підвал */
@@ -226,14 +264,14 @@ ul {
 }
 
 
-.footer-logo {
+.footer .footer-logo {
     font-family: 'Raleway';
     /* font-style: normal; */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
+    padding-bottom: 20px;
     text-decoration: none;
 }
 
@@ -243,7 +281,12 @@ ul {
 
 .footer-logo .logo-studio-footer {
     color: var(--hero);
+
 }
+
+/* .adress {
+    margin-top: 20px;
+} */
 
 .adress .adr {
     font-size: 14px;
@@ -252,6 +295,7 @@ ul {
 
     color: var(--hero);
     text-decoration: none;
+    margin-bottom: 9px;
 
 }
 
@@ -263,6 +307,7 @@ ul {
     color: var(--footer-color-text);
 
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .adress .link:hover,
