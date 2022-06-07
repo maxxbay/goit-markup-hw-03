@@ -74,12 +74,25 @@ ul {
     color: var(--logo-studio);
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav .item+.item {
+    margin-left: 50px;
+}
+
 .header-nav .link {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
     color: var(--primary-text-color);
 
     text-decoration: none;
@@ -94,7 +107,13 @@ ul {
     color: var(--text-link);
 }
 
+.header-contacting {
+    display: flex;
+}
 
+.header-contacting .item+.item {
+    margin-left: 50px;
+}
 
 .header-contacting .link {
     font-weight: 500;
@@ -112,6 +131,12 @@ ul {
     color: var(--text-link);
 }
 
+.line {
+    color: var(--color-line) margin-top: 0;
+    margin-bottom: 0;
+
+}
+
 /* Головна сторінка */
 /* фон головного заголовку background: #2F303A */
 /* фон сторінки background: background: #FFFFFF; */
@@ -126,6 +151,7 @@ ul {
 .container {
     width: 1200px;
     margin: 0 auto;
+    outline: 2px solid tomato;
 }
 
 /* HERO */
@@ -271,7 +297,7 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
 }
 
