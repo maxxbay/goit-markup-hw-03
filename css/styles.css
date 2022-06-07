@@ -1,0 +1,317 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --text-link: #2196F3;
+    --hero: #FFFFFF;
+    --background-team: #F5F4FA;
+    --bacground-color-hero: #2F303A;
+    --footer-color-text: rgba(255, 255, 255, 0.6);
+    --logo-studio: #000000;
+    --button-bcg: #F5F4FA;
+
+}
+
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    background-color: var(--hero);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка */
+
+/* Кольори */
+/* #212121 текст чорний */
+/*  #757575 колір номера телефону*/
+/* #2196F3 текст синій */
+
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
+
+.header-logo .logo-web {
+    color: var(--text-link)
+}
+
+.header-logo .logo-studio {
+    color: var(--logo-studio);
+}
+
+.header-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+
+    text-decoration: none;
+}
+
+.header-nav .link.current {
+    color: var(--text-link);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--text-link);
+}
+
+
+
+.header-contacting .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+
+    text-decoration: none;
+}
+
+.header-contacting .link:hover,
+.header-contacting .link:focus {
+    color: var(--text-link);
+}
+
+/* Головна сторінка */
+/* фон головного заголовку background: #2F303A */
+/* фон сторінки background: background: #FFFFFF; */
+/* Фон Наша команда background: #F5F4FA */
+/* #FFFFFF головний заголовок і колір кнопки*/
+/* Середина */
+/* Секція заголовки#212121 */
+/* Секція тексти абзаци #757575 */
+/* Другий і наступний заголовок + Прізвище ім'я  #212121 */
+/* Професія #757575 */
+
+/* HERO */
+.hero {
+    background-color: #2F303A;
+    margin-bottom: 94px;
+}
+
+.hero .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--hero);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Кнопка */
+.hero .button {
+    display: inline;
+    font-family: inherit;
+    color: var(--hero);
+    background-color: var(--text-link);
+    /* position: absolute; */
+    width: 200px;
+    height: 50px;
+    /* left: 705px;
+    top: 430px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+/* SECTION середина */
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.section .section-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+
+}
+
+.section .section-title-second {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-text-color);
+}
+
+.section .section-text {
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    /* color: var(--text-color); */
+}
+
+.section .section-name {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+}
+
+.section .section-position {
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Підвал */
+/* Лого перша частина #2196F3 */
+/* Лого друга частина #FFFFFF */
+/* Адреса #FFFFFF */
+/* пошта і телефон rgba(255, 255, 255, 0.6) */
+
+/* 2-га сторінка фон background: #E5E5E5 */
+.footer {
+    background-color: var(--bacground-color-hero);
+}
+
+
+.footer-logo {
+    font-family: 'Raleway';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
+
+.footer-logo .logo-web-footer {
+    color: var(--text-link);
+}
+
+.footer-logo .logo-studio-footer {
+    color: var(--hero);
+}
+
+.adress .adr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--hero);
+    text-decoration: none;
+
+}
+
+.adress .link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--footer-color-text);
+
+    text-decoration: none;
+}
+
+.adress .link:hover,
+.adress .link:focus {
+    color: var(--text-link);
+}
+
+
+/* П О Р Т Ф О Л І О  */
+
+/* Головна частина сторінки */
+.section-portfolio {
+    background-color: var(--hero)
+}
+
+.button-portfolio .btn {
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--button-bcg);
+
+    color: var(--primary-text-color);
+
+    cursor: pointer;
+}
+
+.button-portfolio .btn:hover,
+.button-portfolio .btn:focus {
+    background-color: var(--text-link);
+    color: var(--hero);
+}
+
+.cases .cases-title {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-text-color);
+}
+
+.cases .cases-text {
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
