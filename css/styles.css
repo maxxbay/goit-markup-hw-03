@@ -507,6 +507,10 @@ ul {
     margin-right: 0;
 }
 
+.cases-items:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
 .cases .cases-title {
 
     font-weight: 700;
