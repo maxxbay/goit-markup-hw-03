@@ -492,9 +492,6 @@ ul {
 /*СПИСОК КЕЙСІВ КОМАНДИ - картинки з підписами */
 
 
-
-
-
 .cases {
     display: flex;
     flex-wrap: wrap
