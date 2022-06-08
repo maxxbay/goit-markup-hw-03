@@ -21,7 +21,7 @@
 
     <header class="header">
         <div class="container main-nav">
-            <nav>
+            <nav class="nav-header">
                 <!-- Header logo -->
                 <a href="./index.html" class="header-logo"> <span class="logo-web">Web</span><span
                         class="logo-studio">Studio</span> </a>
@@ -50,40 +50,42 @@
                 </li>
             </ul>
         </div>
-        <hr class="line">
+
     </header>
     <!-- Головна сторінка, основна частина -->
     <main>
         <!-- Верхня частина -->
 
         <section class="hero">
-            <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-            <button type="button" name="Order the service" class="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+                <button type="button" name="Order the service" class="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!-- Середина -->
         <section class="section">
             <div class="container">
                 <h2 class="section-heading">что мы предлагаем</h2>
-                <ul>
-                    <li>
+                <ul class="section-block">
+                    <li class="item">
                         <h3 class="section-title-second">внимание к деталям</h3>
                         <p class="section-text">Задача организации, в особенности же рамки и место обучения кадров
                             влечет за
                             собой.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="section-title-second">пунктуальность</h3>
                         <p class="section-text">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="section-title-second">планирование</h3>
                         <p class="section-text">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="section-title-second">современные технологии</h3>
                         <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых
                             заданий.
@@ -92,14 +94,17 @@
                 </ul>
             </div>
         </section>
-        <section class="section">
+        <section class="section secondary-section">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <!-- Картинки середини -->
-                <ul>
-                    <li> <img src="./images/box1.jpg" alt="Перша картинка середини" width="370px" height="294px"></li>
-                    <li> <img src="./images/box2.jpg" alt="Друга картинка середини" width="370px" height="294px"></li>
-                    <li> <img src="./images/box3.jpg" alt="Третя картинка середини" width="370px" height="294px"></li>
+                <ul class="section-images">
+                    <li class="item"><img src="./images/box1.jpg" alt="Перша картинка середини" width="370px"
+                            height="294px"></li>
+                    <li class="item"><img src="./images/box2.jpg" alt="Друга картинка середини" width="370px"
+                            height="294px"></li>
+                    <li class="item"><img src="./images/box3.jpg" alt="Третя картинка середини" width="370px"
+                            height="294px"></li>
                 </ul>
             </div>
         </section>
@@ -107,27 +112,27 @@
         <!-- Нижня частина основної сторінки -->
         <section class="section second-bacground">
             <div class="container">
-                <h2 class="section-title">Наша команда</h2>
-                <ul>
-                    <li>
+                <h2 class="secondary-title">Наша команда</h2>
+                <ul class="section-down">
+                    <li class="item">
                         <img class="section-photo" src="./images/img1.jpg" alt="Перше фото" width="270px"
                             height="260px">
                         <h3 class="section-name">Игорь Демьяненко</h3>
                         <p class="section-position">Product Designer</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <img class="section-photo" src="./images/img2.jpg" alt="Друге фото" width="270px"
                             height="260px">
                         <h3 class="section-name">Ольга Репина</h3>
                         <p class="section-position">Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <img class="section-photo" src="./images/img3.jpg" alt="Третє фото" width="270px"
                             height="260px">
                         <h3 class="section-name">Николай Тарасов</h3>
                         <p class="section-position">Marketing</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <img class="section-photo" src="./images/img4.jpg" alt="Четверте фото" width="270px"
                             height="260px">
                         <h3 class="section-name">Михаил Ермаков</h3>
@@ -139,7 +144,7 @@
     </main>
     <!-- Підвал сторінки -->
     <footer class="footer">
-        <div class="container">
+        <div class="container down-main">
             <a href="./index.html" class="footer-logo"><span class="logo-web-footer">Web</span><span
                     class="logo-studio-footer">Studio</span></a>
             <!-- Адреса і реквізити пошти і контактування -->
