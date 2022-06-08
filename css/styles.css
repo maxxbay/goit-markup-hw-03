@@ -151,9 +151,9 @@ ul {
 }
 
 .line {
-    color: var(--color-line) margin-top: 0;
+    color: var(--color-line);
+    margin-top: 0;
     margin-bottom: 0;
-
 }
 
 /* Головна сторінка */
@@ -397,10 +397,7 @@ ul {
 /* .adress {
     margin-top: 20px;
 } */
-.adress {
-    padding-top: 20px;
-    background-color: tomato;
-}
+
 
 .adress .adr {
     font-size: 14px;
