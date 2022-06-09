@@ -315,12 +315,13 @@ img {
 
 .section-down {
     display: flex;
-    padding-bottom: 30px;
 }
 
 .section-down .item+.item {
     margin-left: 30px;
 }
+
+
 
 .section-secondary-block {
     padding: 30px 0;
